@@ -1,0 +1,247 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.vid {
+    width: 100%;
+    height: 100%;
+    margin: -127px 0px 0px 0px;
+}
+
+.notification {
+    width: 402px;
+    height: 441px;
+    position: absolute;
+    background-color: #eae8e8d9;
+    transition: all 0.5s ease-in;
+    bottom: -472px;
+    left: 1110px;
+    border-radius: 8px;
+    display: none;
+    padding: 26px 0px 0px 11px;
+}
+
+.notification li {
+    list-style: none;
+    display: inline-grid;
+    text-align: center;
+    margin: 6px 0px 28px 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.notification img {
+    max-width: 23px;
+}
+
+.notification button {
+    border: none;
+    background-color: rgba(211, 210, 210, 0.53);
+    padding: 23px 43px 24px 45px;
+    border-radius: 8px;
+}
+
+#tab1 {
+    background-color: rgba(211, 210, 210, 0.53);
+}
+
+li.range {
+    margin: 10px 0px 32px 11px;
+    display: inline-flex;
+}
+
+li.side {
+    display: flex;
+    float: right;
+    padding: 17px 19px 14px 347px;
+    background: #fafafa;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+input[type="range"] {
+    width: 345px;
+    outline: none;
+    height: 5px;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    background: linear-gradient( 90deg, #42a5f5 0%, white 0%);
+    margin: 9px 0px 0px 0px;
+}
+
+input[type="range"]:hover::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px 4px rgba(51, 153, 204, 0.49);
+    border-radius: 10px;
+}
+
+.edge {
+    display: none;
+    height: 558px;
+    width: 903px;
+    position: absolute;
+    left: 767px;
+    top: 70px;
+    transform: translate(-30%, -10%);
+}
+
+.store {
+    display: none;
+    height: 521px;
+    position: absolute;
+    left: 385px;
+    top: 87px;
+    transform: translate(-30%, -10%);
+    border-radius: 6px;
+}
+
+.filewindow {
+    display: none;
+    height: 430px;
+    position: absolute;
+    left: 274px;
+    top: 115px;
+    transform: translate(-30%, -10%);
+}
+
+.startmenu {
+    width: 630px;
+    height: 653px;
+    position: absolute;
+    background-color: #f3f3f3f7;
+    transition: all 0.5s ease-in;
+    bottom: -700px;
+    left: 445px;
+    border-radius: 8px;
+    overflow: hidden;
+    display: none;
+}
+
+.startmenu li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-table;
+    margin: 0px 21px 0px 31px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.inner1 {
+    margin: 27px 0px 6px 32px;
+}
+
+li.inner8 {
+    margin: 0px 21px 0px 21px;
+}
+
+img.inner14 {
+    margin: 39px 0px 0px 21px;
+    width: 90%;
+}
+
+.inner8 img {
+    margin: 0px 0px -7px 0px;
+}
+
+li.inner10 {
+    margin: 26px 24px 0px 38px;
+}
+
+li.inner5 {
+    margin: 6px 33px 0px 19px;
+}
+
+li.inner12 {
+    margin: 26px 32px 0px 42px;
+}
+
+ul.inner {
+    margin: 4px 0px 0px 16px;
+}
+
+ul.innerA {
+    margin: 4px 0px 0px 16px;
+}
+
+.innerA li {
+    display: inline-flex;
+    color: darkgray;
+}
+
+p.heading1 {
+    margin: 4px 106px 0px 5px;
+    text-align: left;
+}
+
+.iconname {
+    color: black;
+}
+
+img.inner15 {
+    width: 100%;
+    margin: 129px 0px 0px 0px;
+}
+
+nav {
+    height: 35px;
+    width: 100%;
+    background-color: #f3f3f3d4;
+    bottom: 0;
+    padding: 0px 0px 0px 0px;
+    position: sticky;
+    display: inline-flex;
+}
+
+.set1 img {
+    max-height: 29px;
+    max-width: 29px;
+    margin: 5px 6px 0px 2px
+}
+
+.set1 li {
+    display: inline;
+}
+
+ul.set1 {
+    width: 90%;
+    margin: 0px 0px 0px 622px;
+}
+
+ul.set2 {
+    margin: -6px -6px 0px 0px;
+}
+
+.set2 li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    bottom: 0px;
+}
+
+img.side2 {
+    height: 35px;
+    width: 63px;
+    margin: 1px 0px -23px -5px;
+}
+
+img.side1 {
+    margin: 0px 0px -26px 255px;
+}
+
+img.side3 {
+    margin: -34px 1px 43px 446px;
+}
+
+div#txt {
+    margin: -16px 0px 0px 388px;
+}

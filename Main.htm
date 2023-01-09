@@ -1,0 +1,153 @@
+<!-- Hello I'm =ODST=, thought of making WINDOWS 11 interface and here it is 
+    but there are some specified operation in it (b'coz I am a begginner so Don't know much)
+    operation that you can perform:
+    1>click on startbutton
+    2>click on edge icon of taskbar
+    3>click file explorer, store in startmenu
+    4>you can open notification panel 
+    5> you can drag file explorer and edge 
+    6>to close any windows you have to click back on the icon from which you opened it 
+    7>also you can click store window to close store and it works only on store
+    It's not a responsive website
+    Yaa! also I got the idea from CodewithHarry
+    Thanks for the some resources
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows 11 UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="startTime()">
+    <video autoplay muted class="vid">
+        <source src="Resources/video.webm" type="video/webm">
+    </video>
+
+    <div>
+        <img src="Resources/FileexplorerWindow.png" alt="" class="filewindow">
+        <ul class="notification">
+            <li><button id="tab1"><img src="Resources/bluetooth.png" alt=""></button>Bluetooth</li>
+            <li><button id="tab2"><img src="Resources/Wi-Fi.png" alt=""></button>Wi-Fi</li>
+            <li><button id="tab3"><img src="Resources/airplane.png" alt=""></button>Airplane</li><br>
+            <li><button id="tab4"><img src="Resources/battersaver.png" alt=""></button>Battery Saver</li>
+            <li><button id="tab5"><img src="Resources/focus.png" alt=""></button>Focus Assist</li>
+            <li><button id="tab6"><img src="Resources/accessibilty.png" alt="" ></button>Accessibility</li>
+            <li class="range"><img src="Resources/sound.png" alt=""><input type="range" class="slider1" min="1" max="100" value="1"></li><br>
+            <li class="range"><img src="Resources/brightness.png" alt=""><input type="range" class="slider2" min="1" max="100" value="1"></li>
+            <li class="side"><img src="Resources/edit.png" alt=""><img src="Resources/settingspoint.png" alt=""></li>
+        </ul>
+        <img src="Resources/edgewindow.png" alt="" class="edge">
+        <img src="Resources/stories-1024-1.gif" alt="" class="store">
+    </div>
+
+
+    <div class="startmenu">
+        <img src="Resources/bar1.png" alt="" class="inner1"><br>
+        <ul class="inner">
+            <li class="inner2">
+                <img src="Resources/Mail.png" alt="">
+                <p class="heading">Mail</p>
+            </li>
+
+            <li class="inner3">
+                <img src="Resources/Calender.png" alt="">
+                <p class="heading">Calender</p>
+            </li>
+
+            <li class="inner4">
+                <img src="Resources/microsoftstore.png" alt="">
+                <p class="heading">Microsoft Store</p>
+            </li>
+
+            <li class="inner5">
+                <img src="Resources/photo.png" alt="">
+                <p class="heading">Photos</p>
+            </li>
+
+            <li class="inner6">
+                <img src="Resources/Setting.png" alt="">
+                <p class="heading">Setting</p>
+            </li>
+
+            <li class="inner7">
+                <img src="Resources/calculator.png" alt="">
+                <p class="heading">Calculator</p>
+            </li>
+            <li class="inner8"><img src="Resources/alarm clock.png" alt="">
+                <p class="heading">Alarm & Clock</p>
+            </li>
+
+            <li class="inner9">
+                <img src="Resources/notepad.png" alt="">
+                <p class="heading">Notepad</p>
+            </li>
+
+            <li class="inner10">
+                <img src="Resources/paint.png" alt="">
+                <p class="heading">Paint</p>
+            </li>
+
+            <li class="inner11">
+                <img src="Resources/fileexplorer.png" alt="">
+                <p class="heading">File Explorer</p>
+            </li>
+
+            <li class="inner12">
+                <img src="Resources/tip.png" alt="">
+                <p class="heading">Tips</p>
+            </li>
+
+            <li class="inner13">
+                <img src="Resources/tv.png" alt="">
+                <p class="heading">Films & Tv</p>
+            </li>
+        </ul>
+        <img src="Resources/bar2.png" alt="" class="inner14"><br>
+        <ul class="innerA">
+            <li class="innerA1"><img src="Resources/video-editor.png" alt="">
+                <p class="heading1">
+                    <span class="iconname">Video Editor</span><br> Recently Added
+                </p>
+            </li>
+            <li class="innerA2"><img src="Resources/node.png" alt="">
+                <p class="heading1">
+                    <span class="iconname">Node.js</span><br> Recently Added
+                </p>
+            </li>
+        </ul>
+        <img src="Resources/bar3.png" alt="" class="inner15">
+    </div>
+
+    <nav class="taskbar">
+        <ul class="set1">
+            <li><img src="Resources/WindowsButton.png" class="src1"></li>
+            <li><img src="Resources/WindowSearch.png" class="src2"></li>
+            <li><img src="Resources/WindowsEdge.png" class="src3"></li>
+            <li><img src="Resources/WindowsFileExplorer.png" class="src4"></li>
+            <li><img src="Resources/WindowsCalender.png" class="src5"></li>
+            <li><img src="Resources/WindowsPr.png" class="src6"></li>
+            <li><img src="Resources/WindowsVScode.png" class="src8"></li>
+        </ul>
+        <ul class="set2">
+            <li>
+                <img src="Resources/extra 1.png" alt="" class="side1">
+            </li>
+            <li><img src="Resources/extra2.png" alt="" class="side2"></li>
+            <li>
+                <div id="txt"></div>
+            </li>
+            <li>
+                <img src="Resources/extra3.png" alt="" class="side3">
+            </li>
+        </ul>
+    </nav>
+    <script src="Operation.js"></script>
+</body>
+
+
+</html>
